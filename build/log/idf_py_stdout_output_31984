@@ -1,0 +1,22 @@
+Command: ninja all
+[1/9] Performing build step for 'bootloader'
+[1/1] cd "/home/ubuntu12345/esp-idf/new-esp32/my project/idf_display/240X240 1.2 inch/build/bootloader/esp-idf/esptool_py" && /home/ubuntu12345/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/ubuntu12345/esp-idf/new-esp32/my\ project/idf_display/240X240\ 1.2\ inch/build/bootloader/bootloader.bin
+Bootloader binary size 0x6680 bytes. 0x980 bytes (8%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/lvgl_demo_ui.c.obj
+/home/ubuntu12345/esp-idf/new-esp32/my project/idf_display/240X240 1.2 inch/main/lvgl_demo_ui.c:15:13: warning: 'btn_cb' defined but not used [-Wunused-function]
+   15 | static void btn_cb(lv_event_t * e)
+      |             ^~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/idf_display/240X240 1.2 inch/main/lvgl_demo_ui.c:11:19: warning: 'btn' defined but not used [-Wunused-variable]
+   11 | static lv_obj_t * btn;
+      |                   ^~~
+[3/7] Linking C static library esp-idf/main/libmain.a
+[4/7] Generating esp-idf/esp_system/ld/sections.ld
+[5/7] Linking CXX executable spi_lcd_touch.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.10.dev1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/ubuntu12345/esp-idf/new-esp32/my project/idf_display/240X240 1.2 inch/build/spi_lcd_touch.bin
+[7/7] cd "/home/ubuntu12345/esp-idf/new-esp32/my project/idf_display/240X240 1.2 inch/build/esp-idf/esptool_py" && /home/ubuntu12345/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/ubuntu12345/esp-idf/new-esp32/my\ project/idf_display/240X240\ 1.2\ inch/build/partition_table/partition-table.bin /home/ubuntu12345/esp-idf/new-esp32/my\ project/idf_display/240X240\ 1.2\ inch/build/spi_lcd_touch.bin
+spi_lcd_touch.bin binary size 0xe1400 bytes. Smallest app partition is 0x100000 bytes. 0x1ec00 bytes (12%) free.

@@ -1,0 +1,2 @@
+source /home/ubuntu12345/esp-idf/new-esp32/my project/idf_display/240X240 1.2 inch/build/bootloader/gdbinit/symbols
+source /home/ubuntu12345/esp-idf/new-esp32/my project/idf_display/240X240 1.2 inch/build/bootloader/gdbinit/connect
